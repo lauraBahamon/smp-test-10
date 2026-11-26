@@ -62,6 +62,21 @@
                 "@type": "Role",
                 "contributor": "https://orcid.org/0009-0003-9330-9292",
                 "roleName": "Full-Stack Developer"
+            },
+            {
+                "@id": "http://entity-1.com",
+                "@type": "Organization",
+                "name": "Entity 1",
+                "affiliation": {
+                    "@id": "https://ror.org/009r0wm36",
+                    "@type": "Organization",
+                    "name": "Max Planck Information and Technology"
+                }
+            },
+            {
+                "@type": "Role",
+                "contributor": "http://entity-1.com",
+                "roleName": "Software Development"
             }
         ],
         "license": "https://spdx.org/licenses/MIT",
